@@ -264,7 +264,7 @@ class Google:
         # Update the payload
         payload['Passwd'] = self.config.password
 
-         # Set bg_response in request payload to passwd challenge
+        # Set bg_response in request payload to passwd challenge
         if self.config.bg_response:
             payload['bgresponse'] = self.config.bg_response
 
